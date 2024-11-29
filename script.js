@@ -9,8 +9,18 @@ Consigli del giorno:
 2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"*/
 
 //Crea un ciclo che va da 1 a 100
-//SE il numero è divisibile sia per 3 che per 5 
-//ALTRIMENTI SE il numero è divisibile solo per 3
-//ALTRIMENTI SE il numero è divisibile solo per 5
-//SE non è divisibile nè per 3, ne per 5 
-  
+for(let i = 1; i <= 100; i++){
+    //SE il numero è divisibile sia per 3 che per 5 
+    if(i % 3 === 0 && i % 5 === 0){     
+        console.log("FizzBuzz")
+    } //ALTRIMENTI SE il numero è divisibile solo per 3
+      else if(i % 3 === 0){             
+        console.log("Fizz")
+    } //ALTRIMENTI SE il numero è divisibile solo per 5
+      else if(i % 5 === 0){             
+        console.log("Buzz")
+    } //SE non è divisibile nè per 3, ne per 5 
+      else{                             
+        console.log(i)
+    }
+} 
