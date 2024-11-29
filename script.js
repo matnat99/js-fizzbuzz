@@ -7,3 +7,10 @@ Abbiamo visto qualcosa di particolare che possiamo usare?
 Consigli del giorno:
 1. scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"*/
+
+//Crea un ciclo che va da 1 a 100
+//SE il numero è divisibile sia per 3 che per 5 
+//ALTRIMENTI SE il numero è divisibile solo per 3
+//ALTRIMENTI SE il numero è divisibile solo per 5
+//SE non è divisibile nè per 3, ne per 5 
+  
